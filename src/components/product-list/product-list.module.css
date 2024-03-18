@@ -1,0 +1,32 @@
+.container {
+    border: 2px solid rgb(82, 192, 82);
+    border-radius: 10px;
+    height: 500px;
+    padding: 20px;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    min-width: 300px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.product {
+    height: 30px;
+    background-color: burlywood;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.button {
+    height: 30px;
+}

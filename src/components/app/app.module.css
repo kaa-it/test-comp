@@ -1,0 +1,15 @@
+.burger_constructor {
+    display: flex;
+    width: 584px;
+    height: 500px;
+    flex-direction: column;
+    gap: 16px 0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.loading {
+    color: #F2F2F3;
+    font-size: 32px;
+    line-height: 32px;
+}
